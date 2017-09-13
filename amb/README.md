@@ -11,6 +11,10 @@
 
 实现来自<https://mitpress.mit.edu/sicp/code/index.html>, 将`ch4-mceval.scm`、`ch4-ambeval.scm`整合在一起作为amb的实现。
 
+### 测试环境
+
+Racket / TeachingLanguage
+
 ### 测试1 list测试
 
 示例代码见：<amb-list-demo.scm>

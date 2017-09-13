@@ -1,0 +1,8 @@
+(define (require p)
+  (if (not p) (amb)))
+(define (an-integer-starting-from n)
+    (amb n (an-integer-starting-from (+ n 1))))
+(let ((x (an-integer-starting-from 2))
+      (y (an-integer-starting-from 4)))
+    (require (eq? x y))
+    (list x y))
